@@ -1,0 +1,64 @@
+{
+    "Geomap2D": {
+        "Name": "testmap",
+        "layers": {
+            "GraphicsLayer": {
+                "Name": "myGraph",
+                "Features": [{
+                        "GraphicsFeature": {
+                            "id": 1,
+
+                            "type": "CURVE",
+                            "points": [
+                                [8.4, 66.7],
+                                [50.5, 53.8],
+                                [12.6, 570.85],
+                                [140.6, 67.85]
+                            ],
+                            "name": "CURVE - Millbrae",
+                            "color": [255, 0, 0]
+                        }
+                    },
+                    {
+                        "GraphicsFeature": {
+                            "id": 2,
+                            "type": "POLYGONS",
+                            "points": [
+                                [8.4, 66.7],
+                                [50.5, 53.8],
+                                [12.6, 570.85],
+                                [140.6, 67.85]
+                            ],
+                            "cells": [
+                                [0, 1, 2, 3]
+                            ],
+                            "name": "POLYGONS - Millbrae",
+                            "color": [255, 240, 0]
+                        }
+                    },
+                    {
+
+                        "GraphicsFeature": {
+                            "id": 3,
+                            "type": "CURVE",
+                            "points": [
+                                [8.4, 66.7],
+                                [50.5, 53.8],
+                                [12.6, 570.85],
+                                [140.6, 67.85]
+                            ],
+                            "cells": [
+                                [0, 1, 2, 3]
+                            ],
+                            "CLOSED": 1,
+                            "name": "CURVE3",
+                            "color": [255, 240, 0]
+                        }
+
+                    }
+                ]
+
+            }
+        }
+    }
+}

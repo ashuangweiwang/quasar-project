@@ -1,0 +1,36 @@
+{
+    "ClassName": "DGMWorkSpace",
+    "editor": "",
+    "picker": "",
+    "MapManager": {
+        "ClassName": "DGMMap2DManager",
+        "LayerArray": [{
+                "ClassName": "DGMAbstractLayer",
+
+                "TilesLODTree": "?",
+
+                "Style": "",
+                "TileManager": [{
+                    "ClassName": "DGMTilesManager",
+                    "Tiles": [{
+                        "ClassName": "DGMTile",
+                        "BufferGeometry": {
+                            "ClassName": "DGMBufferedGeometry",
+                            "Points": [],
+                            "Cells": [],
+                            "Normals": [],
+                            "Type": ""
+                        },
+                        "FeatureClass": {
+                            "ClassName": "DGMFeatureClass",
+                            "id": 1,
+                            "Features": []
+                        },
+                        "style": ""
+                    }]
+                }]
+            }
+
+        ]
+    }
+}
